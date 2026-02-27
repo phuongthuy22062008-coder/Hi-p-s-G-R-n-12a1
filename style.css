@@ -18,7 +18,8 @@
 .content iframe{
     flex: 1;
     border: none;
-    height: 100vh;
+    height: 100%;
+    width: 100%; 
 }
 .footer{
     flex: 10%;
