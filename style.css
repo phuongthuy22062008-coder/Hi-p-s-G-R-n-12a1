@@ -7,12 +7,22 @@
     flex: 15%;
     background-color: lightgray; 
 }
-.menu{
+.menu {
     flex: 5%;
     background-color: darkgray;
+    display: flex; 
+    align-items: center; 
 }
+.menu a{
+    padding: 15px 20px
+    color: blue; 
+} 
+.menu hover{ 
+    background-color: lightgray; 
+    color: black; 
+} 
 .content{
-    flex: 65%;
+    flex: 70%;
     background-color: white;
 }
 .content iframe{
