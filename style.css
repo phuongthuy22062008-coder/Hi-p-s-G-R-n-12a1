@@ -18,6 +18,7 @@
 .content iframe{
     flex: 1;
     border: none;
+    height: 100vh;
 }
 .footer{
     flex: 10%;
