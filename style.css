@@ -5,7 +5,9 @@
 }
 .header{
     flex: 15%;
-    background-color: lightgray; 
+    background-color: lightgray;
+    background:url("anhnen.png") center,
+    aspect-ratio: 6/1;
 }
 .menu {
     flex: 5%;
