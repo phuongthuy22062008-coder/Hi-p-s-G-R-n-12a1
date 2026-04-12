@@ -1,9 +1,20 @@
-<head>
+<html>
+   <head>
+     <meta charset="UTF-8">
+    <title> Kết quả phản hồi </title>
+  </head>
   <body>
-    <b>Cám ơn bạn đã tham gia hội thao</b><br>
-    Chúng tôi sẽ tổng hợp lại và gửi số báo danh dự thi cho bạn sau nhé<br>
-    <form action = "Hoithao.html">
-      <input type = "submit" name = "cmd" value="Quay lại">
+     <p id="kq"> </p>
+     <script>
+       let params = new URLSearchParams(window.location.search);
+       let name = params.get("txtTen");
+       let yk = params.get("txtComment");
+      document.getElementById("kq").innerHTML ="Cảm ơn bạn " + name + " đã tham gia hội thao" + "<br><br>Chúng tôi xin xác nhận lại lựa chọn của bạn như sau:<br>" + yk;
+     </script>
+
+     <br>
+     <form action="Hoithao.html">
+        <input type="submit" value="Quay lại">
     </form>
   </body>
-</head>
+</html>
